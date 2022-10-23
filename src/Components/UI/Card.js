@@ -1,7 +1,7 @@
 import ExpenseItem from '../Expenses/ExpenseItem.js';
 import './Card.css';
 
-export default function Expenses() {
+const Expenses = () => {
   const expenses = [
     {
       id: 'e1',
@@ -34,5 +34,6 @@ export default function Expenses() {
       
   );
 
-
 }
+
+export default Expenses;

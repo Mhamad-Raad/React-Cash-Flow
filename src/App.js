@@ -1,7 +1,6 @@
 import Card from './Components/UI/Card.js';
 
-
-function App() {
+const App = () => {
 
   return (
     <div>
