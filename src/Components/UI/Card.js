@@ -1,5 +1,5 @@
-import ExpenseItem from './ExpenseItem.js';
-import './Expenses.css';
+import ExpenseItem from '../Expenses/ExpenseItem.js';
+import './Card.css';
 
 export default function Expenses() {
   const expenses = [
