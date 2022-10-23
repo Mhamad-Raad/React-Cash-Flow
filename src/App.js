@@ -1,10 +1,11 @@
 import Card from './Components/UI/Card.js';
+import NewExpense from './Components/Expenses/NewExpense/NewExpense.js';
 
 const App = () => {
 
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <NewExpense />
       <Card />
     </div>
   );
