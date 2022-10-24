@@ -51,7 +51,8 @@ var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
         </div>
       </div>
       <div className="new-expense__actions">
-          <button type="submit">Add Expense</button>
+        <button type="button" onClick={props.cancelHandler}>Cancel</button>
+        <button type="submit" >Add Expense</button>  
       </div>
     </form>
   );
