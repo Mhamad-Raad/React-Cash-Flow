@@ -1,4 +1,3 @@
-import ExpenseItem from '../Expenses/ExpenseItem.js';
 import ExpenseFilter from '../Expenses/ExpensesFilter.js';
 import ExpenseList from '../Expenses/ExpenseList.js';
 import React, { useState } from 'react';
@@ -17,10 +16,14 @@ const Expenses = (props) => {
     return expense.date.getFullYear().toString() === filteredYear;
   });
 
+  const reachDeleteHandler = (id) => {
+    props.deleteHandler(id);
+  } 
+
   return (
     <div className="expenses">
       <ExpenseFilter onFilterHandler={FilterHandler}/>
-      <ExpenseList items={arr}/>
+      <ExpenseList deleteItem={reachDeleteHandler} items={arr}/>
     </div>
   );
 

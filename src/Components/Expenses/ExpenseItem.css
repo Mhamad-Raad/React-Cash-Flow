@@ -54,3 +54,16 @@
     padding: 0.5rem 1.5rem;
   }
 }
+
+.deleteBtn {
+  color: white;
+  padding: 10px 15px;
+  background-color: rgb(187, 55, 55);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  background-color: rgb(255, 0, 0);
+}

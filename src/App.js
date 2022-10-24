@@ -36,14 +36,25 @@ const App = () => {
     setExpenses([expense, ...expenses]);
   };
 
+const deleteExpenseHandler = (id) => {
+ const index = expenses.findIndex(object => {
+    return object.id === id;
+  });
 
+ let newE = expenses.map((object) => {
+    return object;
+  });
+  
+  newE.splice(index, 1);
+  setExpenses(newE);
+}
 
   
  
   return (
     <div>
       <NewExpense addExpense={addExpenseHandler} />
-      <Card Pexpenses={expenses}/>
+      <Card deleteHandler={deleteExpenseHandler} Pexpenses={expenses}/>
     </div>
   );
 }
