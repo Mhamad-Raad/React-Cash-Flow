@@ -1,4 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Cash Flow
 this is a webpage where you can keep track of monthly expenses, and see how in which month you had the most expenses throughout a filtered year.
