@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/React-Cash-Flow/static/css/main.370b5a2d.css",
-    "main.js": "/React-Cash-Flow/static/js/main.767b8dad.js",
+    "main.js": "/React-Cash-Flow/static/js/main.76e3b101.js",
     "index.html": "/React-Cash-Flow/index.html",
     "main.370b5a2d.css.map": "/React-Cash-Flow/static/css/main.370b5a2d.css.map",
-    "main.767b8dad.js.map": "/React-Cash-Flow/static/js/main.767b8dad.js.map"
+    "main.76e3b101.js.map": "/React-Cash-Flow/static/js/main.76e3b101.js.map"
   },
   "entrypoints": [
     "static/css/main.370b5a2d.css",
-    "static/js/main.767b8dad.js"
+    "static/js/main.76e3b101.js"
   ]
 }
