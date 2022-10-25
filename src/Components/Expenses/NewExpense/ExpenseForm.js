@@ -13,7 +13,7 @@ var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
   };
 
   const amountHandler = (event) => {
-    setEnteredAmount(event.target.value);
+    setEnteredAmount(parseInt(event.target.value));
   };
 
   const dateHandler = (event) => {

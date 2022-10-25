@@ -1,5 +1,6 @@
 import ExpenseFilter from '../Expenses/ExpensesFilter.js';
 import ExpenseList from '../Expenses/ExpenseList.js';
+import ExpenseChart from '../Expenses/Chart/ExpenseChart.js';
 import React, { useState } from 'react';
 
 import './Card.css';
@@ -23,6 +24,7 @@ const Expenses = (props) => {
   return (
     <div className="expenses">
       <ExpenseFilter onFilterHandler={FilterHandler}/>
+      <ExpenseChart expenses={arr}/>
       <ExpenseList deleteItem={reachDeleteHandler} items={arr}/>
     </div>
   );
