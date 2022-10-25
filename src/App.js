@@ -2,6 +2,7 @@ import Card from './Components/UI/Card.js';
 import NewExpense from './Components/Expenses/NewExpense/NewExpense.js';
 import { useState } from 'react';
 
+
 const DUMMY_DATA = [
   {
     id: 'e1',
