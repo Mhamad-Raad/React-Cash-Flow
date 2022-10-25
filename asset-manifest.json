@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Mhamad-Raad.github.io/static/css/main.370b5a2d.css",
-    "main.js": "/Mhamad-Raad.github.io/static/js/main.767b8dad.js",
-    "index.html": "/Mhamad-Raad.github.io/index.html",
-    "main.370b5a2d.css.map": "/Mhamad-Raad.github.io/static/css/main.370b5a2d.css.map",
-    "main.767b8dad.js.map": "/Mhamad-Raad.github.io/static/js/main.767b8dad.js.map"
+    "main.css": "/React-Cash-Flow/static/css/main.370b5a2d.css",
+    "main.js": "/React-Cash-Flow/static/js/main.767b8dad.js",
+    "index.html": "/React-Cash-Flow/index.html",
+    "main.370b5a2d.css.map": "/React-Cash-Flow/static/css/main.370b5a2d.css.map",
+    "main.767b8dad.js.map": "/React-Cash-Flow/static/js/main.767b8dad.js.map"
   },
   "entrypoints": [
     "static/css/main.370b5a2d.css",
