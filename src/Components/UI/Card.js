@@ -13,8 +13,9 @@ const Expenses = (props) => {
     setFilteredYear(val);
   };
 
-  let arr = props.Pexpenses.filter((expense) => {
-    return expense.date.getFullYear().toString() === filteredYear;
+  let arr = props.Pexpenses?.filter((expense) => {
+    const date = new Date(expense.date)
+    return date.getFullYear().toString() === filteredYear;
   });
 
   const reachDeleteHandler = (id) => {
