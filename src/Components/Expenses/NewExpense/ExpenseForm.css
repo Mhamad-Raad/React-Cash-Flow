@@ -6,6 +6,11 @@
   text-align: left;
 }
 
+.new-expense__control {
+  width: 40%;
+  margin-right: 10px;
+}
+
 .new-expense__control label {
   font-weight: bold;
   margin-bottom: 0.5rem;
@@ -17,8 +22,8 @@
   padding: 0.5rem;
   border-radius: 6px;
   border: 1px solid #ccc;
-  width: 20rem;
-  max-width: 100%;
+  width: 100%; 
+  max-width: 320px;
 }
 
 .new-expense__actions {
